@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif
+}
+body {
+    background-color: #2a2a35;
+    color: #333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "PT Serif", serif
+}
+h1,h4,p,a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
