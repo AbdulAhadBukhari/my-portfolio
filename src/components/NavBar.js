@@ -7,8 +7,18 @@ import { useState } from "react";
 const NavBar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if(window.scrollY >= 100){
+            setColor(true);
+        }
+        else{
+            setColor(false);
+        }
+    }
+    window.addEventListener("scroll", changeColor);
   return (
-    <div className="Header">
+    <div className={color ? "header header-bg": "header"}>
     <Link to="/">
         <h1>Portfolio</h1>
     </Link>
@@ -17,10 +27,13 @@ const NavBar = () => {
             <Link to="/">Home</Link>
         </li>
         <li>
-            <Link to="/About">About Me</Link>
+            <Link to="/About">About</Link>
         </li>
         <li>
-            <Link to="/Project">Project</Link>
+            <Link to="/Project">Projects</Link>
+        </li>
+        <li>
+            <Link to="/Contact">Contact</Link>
         </li>
     </ul>
     <div className="burger" onClick={handleClick}>
