@@ -53,12 +53,12 @@
   
   .hero .content h1 .fixed-text {
     display: inline-block;
-    min-width: 230px; /* Keeps a fixed space for changing text */
+    min-width: 230px;
   }
   
   .hero .content h1 .changing-text {
     margin-left: 10px;
-    color: #6692ba; /* Highlight color for the changing text */
+    color: #6692ba;
     display: inline-block;
     animation: blink 0.8s step-end infinite alternate;
     text-transform: uppercase;
