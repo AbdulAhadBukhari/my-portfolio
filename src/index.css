@@ -21,3 +21,10 @@ h1,h4,p,a {
 ul {
     list-style-type: none;
 }
+
+:root{
+    --yellow-theme-background-color: #1d1d1d;
+    --yellow-theme-main-color: #ffdd40;
+    --yellow-theme-sub-text-color: #fff;
+    --yellow-theme-nav-background-color: #181818;
+}
