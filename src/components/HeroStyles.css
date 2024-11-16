@@ -49,6 +49,7 @@
     justify-content: flex-start;
     align-items: center;
     text-transform: none;
+    color: white;
   }
   
   .hero .content h1 .fixed-text {

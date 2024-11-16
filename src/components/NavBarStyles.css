@@ -11,7 +11,10 @@
 .header-bg{
   background-color: rgba(0,0,0,0.8);
   transition: 0.5s;
-  
+}
+.header h1{
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .nav-menu {
@@ -19,10 +22,14 @@
 }
 .nav-menu li {
     padding: 0 1rem;
+    
 }
 .nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
+    color: white;
+    text-decoration: none;
+
 }
 .burger {
     display: none;

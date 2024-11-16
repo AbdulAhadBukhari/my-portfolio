@@ -30,12 +30,12 @@
     margin-top: 1rem;
 }
 h4{
-    color: #fff;
+    color: #fff !important;
     font-size: 1.4rem;
     margin-bottom: 0.8rem;
 }
 p{
-    color: #fff;
+    color: #fff !important;
     font-size: 1.2rem;
 }
 
